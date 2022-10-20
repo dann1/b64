@@ -1,0 +1,25 @@
+# b64
+
+C++ base64 encoder/decoder CLI app using [cpp-base64](https://github.com/ReneNyffenegger/cpp-base64)
+
+## Usage
+
+Execute the b64 binary
+
+```
+usage: b64 --decode/--encode <base64 encoded text>
+```
+
+### Example
+
+```
+b64 "Q1BVPSIyMDIuMTkiCk1FTU9SWT0iNDI1MTc0NCIKTkVUUlg9Ijc1Njc1Njg1OCIKTkVUVFg9IjEyNDI0ODQ2IgpESVNLUkRCWVRFUz0iNjEyMDMyNzE2OCIKRElTS1dSQllURVM9IjQzNjc4NDY5MTIiCkRJU0tSRElPUFM9IjEzMzgwMiIKRElTS1dSSU9QUz0iNTU5OTIiCg=="
+CPU="202.19"
+MEMORY="4251744"
+NETRX="756756858"
+NETTX="12424846"
+DISKRDBYTES="6120327168"
+DISKWRBYTES="4367846912"
+DISKRDIOPS="133802"
+DISKWRIOPS="55992"
+```
